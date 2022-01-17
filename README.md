@@ -14,7 +14,7 @@ Project used to showcase the Automate UI testing and integration testing
 4. Verify the presence of a snackbar after clicking on the button in the second tab.
 
 ## Tasks 1: Run the Automated UI tests (end-to-end testing)
-To test on a real iOS / Android device, first connect the device and run the following command from the root of the project:
+To test on a real iOS/Android device or on an Android Emulator/iOS Simulator, first connect the device or open the Android Emulator/iOS Simulator and run the following command from the root of the project:
 
 flutter drive  --target=e2e_testing/e2e.dart --driver=e2e_testing/test_tab_host.dart
 
