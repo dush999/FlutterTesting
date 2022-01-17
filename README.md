@@ -2,7 +2,7 @@
 
 Project used to showcase the Automate UI testing and integration testing
 
-## App has the following screens/UIs
+## App constains the following screens/UIs
 1. A screen with two tabs. Clicking on tabs will change the content of the screen.
 2. A text is shown under the first tab
 3. A button is shown under the second tab. Clicking on the button will show a Snackbar with message 'Button is clicked'
@@ -13,7 +13,7 @@ Project used to showcase the Automate UI testing and integration testing
 3. Verify the presence of the button under the second tab. Make the button click under the second tab.
 4. Verify the presence of a snackbar after clicking on the button in the second tab.
 
-## Tasks 1: Run Automated UI tests (end-to-end testing)
+## Tasks 1: Run the Automated UI tests (end-to-end testing)
 To test on a real iOS / Android device, first connect the device and run the following command from the root of the project:
 
 flutter drive  --target=e2e_testing/e2e.dart --driver=e2e_testing/test_tab_host.dart
