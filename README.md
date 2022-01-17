@@ -1,16 +1,24 @@
 # flutter_testing
 
-A new Flutter project.
+Project used to showcase the Automate UI testing and integration testing
 
-## Getting Started
+## App has the following screens/UIs
+1. A screen with two tabs. Clicking on tabs will change the content of the screen.
+2. A text is shown under the first tab
+3. A button is shown under the second tab. Clicking on the button will show a Snackbar with message 'Button is clicked'
 
-This project is a starting point for a Flutter application.
+## Tests covers the following scenarios
+1. Two bottom tabs of the screen.
+2. Presence of the text under the first tab.
+3. Presence of the button under the second tab. Make the button click under the second tab.
+4. Presence of a snackbar after clicking on the button in the second tab.
 
-A few resources to get you started if this is your first Flutter project:
+## Tasks 1: Run Automated UI tests (end-to-end testing)
+To test on a real iOS / Android device, first connect the device and run the following command from the root of the project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+flutter drive  --target=e2e_testing/e2e.dart --driver=e2e_testing/test_tab_host.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tasks 2: (Bonus Task) : Run the integration test
+Run the following command from the root of the project:
+
+flutter test integration_test/app_test.dart
