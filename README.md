@@ -9,9 +9,9 @@ Project used to showcase the Automate UI testing and integration testing
 
 ## Tests covers the following scenarios
 1. Two bottom tabs of the screen.
-2. Presence of the text under the first tab.
-3. Presence of the button under the second tab. Make the button click under the second tab.
-4. Presence of a snackbar after clicking on the button in the second tab.
+2. Verify the presence of the text under the first tab.
+3. Verify the presence of the button under the second tab. Make the button click under the second tab.
+4. Verify the presence of a snackbar after clicking on the button in the second tab.
 
 ## Tasks 1: Run Automated UI tests (end-to-end testing)
 To test on a real iOS / Android device, first connect the device and run the following command from the root of the project:

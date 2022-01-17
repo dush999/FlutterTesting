@@ -24,23 +24,23 @@ class TabHostPageRobot {
     await checkSnacBarMessageIsShown();
   }
 
-  /// Test the first Tab item's presence in the screen
+  /// Verify the presence of the first tab ('Tab 1') in the screen
   Future<void> testTab1Presence() async {
     await driver.waitFor(find.byValueKey('key_bottom_nav_bar'));
     expect(await driver.getText(find.text(StringConstants.tabItem1Title)),
-        'Tab 1'); // check if Tab 1 is present
+        'Tab 1'); 
   }
 
-  /// Test the second Tab item's presence in the screen
+  /// Verify the presence of the scound tab('Tab 2') in the screen
   Future<void> testTab2Presence() async {
     expect(await driver.getText(find.text(StringConstants.tabItem2Title)),
-        'Tab 2'); // check if Tab 2's presence
+        'Tab 2'); 
   }
 
-  /// Test the text's presence in the screen
+  /// Verify the presence of the text under first tab
   Future<void> checkTextPresence() async {
     expect(await driver.getText(find.byValueKey('key_text')),
-        'Text on the Tab 1'); // check text's presence
+        'Text on the Tab 1');
   }
 
   /// Tap on the secound Tab
@@ -50,7 +50,7 @@ class TabHostPageRobot {
     await Future.delayed(const Duration(seconds: 1));
   }
 
-  /// Check the button's presence
+  /// Verify the presence of the button under second tab
   Future<void> checkButtonsPresence() async {
     expect(await driver.getText(find.text(StringConstants.buttonTittle)),
         'Button on the Tab 2');
