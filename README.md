@@ -1,6 +1,6 @@
 # flutter_testing
 
-Project used to showcase the Automate UI testing and integration testing
+Project to showcase the Automate UI testing and integration testing
 
 ## App contains the following screens/UIs
 1. A screen with two tabs. Clicking on tabs will change the content of the screen.
