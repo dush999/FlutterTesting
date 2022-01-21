@@ -2,7 +2,7 @@
 
 Project used to showcase the Automate UI testing and integration testing
 
-## App constains the following screens/UIs
+## App contains the following screens/UIs
 1. A screen with two tabs. Clicking on tabs will change the content of the screen.
 2. A text is shown under the first tab
 3. A button is shown under the second tab. Clicking on the button will show a Snackbar with message 'Button is clicked'
